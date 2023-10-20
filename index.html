@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose a Film</title>
+    <script src="./movies.js" defer></script>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <a href="/about-us.html">A</a>
+        <a href="/index.html">B</a>
+        <a href="/Results.html">C</a>
+      </div>
+      <div class="ceefilm"><a href=""></a>CeeFilm</div>
+    </header>
+    <h2 id="qText">Hey, how are you feeling today?</h2>
+    <div id="buttonContainer">
+      <button id="buttonHappy">
+        <img src="./images/happy emoji.gif" width="280x" height="280px" />
+      </button>
+      <button id="buttonSad">
+        <img src="./images/crying-emoji.gif" width="280px" height="280px" />
+      </button>
+
+      <button class="hidden" id="buttonAction">
+        <img src="./images/explosion.gif" width="280px" height="280px" />
+      </button>
+      <button class="hidden" id="buttonHorror">
+        <img src="./images/excorcist.gif" width="280px" height="280px" />
+      </button>
+
+      <button class="hidden" id="buttonDrama">
+        <img src="./images/drama.gif" width="280px" height="280px" />
+      </button>
+      <button class="hidden" id="buttonComedy">
+        <img src="./images/comedy.gif" width="280px" height="280px" />
+      </button>
+
+      <button class="hidden" id="filmOneAction">filmOneAction</button>
+      <button class="hidden" id="filmTwoAction">filmTwoAction</button>
+
+      <button class="hidden" id="filmOneHorror">filmOneHorror</button>
+      <button class="hidden" id="filmTwoHorror">filmTwoHorror</button>
+
+      <button class="hidden" id="filmOneDrama">filmOneDrama</button>
+      <button class="hidden" id="filmTwoDrama">filmTwoDrama</button>
+
+      <button class="hidden" id="filmOneComedy">filmOneComedy</button>
+      <button class="hidden" id="filmTwoComedy">filmTwoComedy</button>
+    </div>
+    <div class="hidden" id="resultMovie">
+      <h2 id="resultMovieTitle"></h2>
+      <img id="resultMovieImage" src="" alt="" />
+      <p id="resultMovieDescrip"></p>
+    </div>
+  </body>
+</html>
